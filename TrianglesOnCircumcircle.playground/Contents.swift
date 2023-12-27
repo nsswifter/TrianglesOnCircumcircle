@@ -26,6 +26,7 @@ if let mainView = views.first as? NSView {
         for subview in mainView.subviews {
             if let textField = subview as? NSTextField {
                 // Assigns the text field itself as its delegate.
+                textField.delegate = textField
             }
             
             // Check if the subview has a tag of -1 (assumed to be the coordinatePlaneView)
@@ -67,6 +68,21 @@ func refreshTrianglesOnCoordinatePlane(numberOfTriangles: Int) {
         let color = NSColor.random
         coordinatePlaneView.drawPoint(from: point, withColor: color)
         coordinatePlaneView.drawLines(from: point, withColor: color)
+    }
+}
+
+// MARK: - Text Field Value Did Change
+
+extension NSView: NSTextFieldDelegate {
+    /// Notifies the delegate that the text in the specified text field has changed.
+    ///
+    /// - Parameter obj: The notification containing the text field that changed.
+    @available(OSX 10.10, *)
+    public func controlTextDidChange(_ obj: Notification) {
+        if let textField = obj.object as? NSTextField {
+            // Refreshes the display of triangles on the coordinate plane based on the updated number of triangles.
+            refreshTrianglesOnCoordinatePlane(numberOfTriangles: Int(textField.intValue))
+        }
     }
 }
 
