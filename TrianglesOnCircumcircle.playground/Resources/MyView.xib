@@ -9,45 +9,45 @@
         <customObject id="-2" userLabel="File's Owner"/>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
-        <customView id="isF-8o-agr">
+        <customView id="c22-O7-iKe">
             <rect key="frame" x="0.0" y="0.0" width="496" height="500"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
             <subviews>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cY0-z3-Ibi">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LjM-KA-OXy">
                     <rect key="frame" x="51" y="389" width="394" height="39"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Triangles On Circumcircle" id="w2j-H6-M0o">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Triangles On Circumcircle" id="YLl-lC-HlH">
                         <font key="font" metaFont="systemBold" size="32"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <customView clipsToBounds="NO" focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HJf-zO-stE" userLabel="Coordinate Plane View">
+                <customView clipsToBounds="NO" focusRingType="none" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="d6h-Lh-d5u" userLabel="Coordinate Plane View">
                     <rect key="frame" x="138" y="140" width="220" height="220"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
                 </customView>
-                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oXl-gt-dwb">
+                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pRU-Wd-zBI">
                     <rect key="frame" x="81" y="82" width="334" height="39"/>
                     <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Number of Triangles:" id="UbJ-VT-rb4">
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="Number of Triangles:" id="Szc-SL-elL">
                         <font key="font" metaFont="systemMedium" size="20"/>
                         <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
-                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z4g-ms-SCy">
+                <textField focusRingType="none" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VNQ-rf-rGu">
                     <rect key="frame" x="214" y="41" width="68" height="46"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="3" drawsBackground="YES" id="Wgd-JB-O5w">
-                        <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" formatWidth="-1" groupingSize="0" minimumIntegerDigits="1" maximumIntegerDigits="42" id="Lhm-b8-wtn"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" alignment="center" title="3" drawsBackground="YES" id="n6Z-36-oJA">
+                        <numberFormatter key="formatter" formatterBehavior="default10_4" usesGroupingSeparator="NO" formatWidth="-1" groupingSize="0" minimumIntegerDigits="1" maximumIntegerDigits="42" id="rAw-9d-mQD"/>
                         <font key="font" metaFont="system" size="33"/>
                         <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
             </subviews>
-            <viewLayoutGuide key="safeArea" id="gZM-Rc-xGy"/>
-            <viewLayoutGuide key="layoutMargins" id="Xb3-ct-42m"/>
+            <viewLayoutGuide key="safeArea" id="nhl-R8-FrW"/>
+            <viewLayoutGuide key="layoutMargins" id="zAm-YR-BFj"/>
             <point key="canvasLocation" x="-21" y="268"/>
         </customView>
     </objects>
